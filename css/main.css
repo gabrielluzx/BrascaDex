@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-display: 'Titillium Web', sans-serif;
+    --bg-caption: #008331;
+    --bg-head: rgb(196, 196, 196);
+}
+#brascadex {
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+#brascadex caption {
+    padding: 30px;
+    color: white;
+    background-color: var(--bg-caption);
+    font: 2rem var(--font-display);
+
+}
+#brascadex thead {
+    background-color: var(--bg-head);
+}
+#brascadex th,
+#brascadex td {
+    padding: 10px;
+    line-height: 1.5em;
+    border: 1px solid black;
+}
