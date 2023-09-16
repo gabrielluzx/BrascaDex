@@ -25,6 +25,7 @@
 #brascadex th,
 #brascadex td {
     padding: 10px;
+    width: max-content;
     line-height: 1.5em;
     border: 1px solid black;
 }
