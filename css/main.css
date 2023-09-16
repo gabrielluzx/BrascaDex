@@ -29,3 +29,9 @@
     line-height: 1.5em;
     border: 1px solid black;
 }
+.cell-number,
+.cell-name,
+.cell-type,
+.cell-hability {
+    text-align: center;
+}
